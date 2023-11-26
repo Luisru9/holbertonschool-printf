@@ -34,7 +34,7 @@ Conversion specifiers: There are a many different conversion specifiers that can
 
 A conversion specifier begins with a percent sign and ends with the conversion characters shown below.
 
-.SH For example:
+.For example:
 
 _printf("Character: %c", character);
 
