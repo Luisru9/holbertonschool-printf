@@ -15,7 +15,7 @@ int _printf(const char *format, ...)
 
 _printf[argument]...
 
-.SH DESCRIPTION
+.DESCRIPTION
 The printf function prints numerical values or ASCII characters characters of the format specifiers passed to it in the argument. This _printf includes our version of the printf function, the basic and main functions.
 
 Return: The number of characters printed (excluding the null byte used to end output to string).
@@ -43,7 +43,7 @@ _printf("String: %s", string);
 _printf("Integer: %d", integer);
  (or use "%i" for print integer, depends of the case).
 
-.SH BUGS
+.BUGS
 If there is a bug, report to 7327@holbertonschool.com or 5366@holbertonschool.com
 
 .SH AUTHORS
