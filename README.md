@@ -1,15 +1,8 @@
-#include <stdio.h>
-
-int main() {
-    printf("\033[1;37mPrintf Group Projects\033[0m\n");
-    return 0;
-}
-
-
+Printf Group Projects 🚀
 
 Description 💬
 
- formatted output conversion #include "main.h" int _printf(const char format , ...);
+Formatted output conversion #include "main.h" int _printf(const char format , ...);
 
 The _printf() function produce output according to a format as described below. Also, write output to stdout, the standard output stream. The _printf() function write the output under the control of a format string that specifies how subsequent arguments (or arguments accessed via the variable-length argument facilities of stdarg(3) are converted for output.
 
@@ -23,7 +16,6 @@ s: The const char * argument is expected to be a pointer to an array of characte
 %: A '%' is written. No argument is converted. The complete conversion specification is '%%'.
 
 Task 📃
-
 
 ~~~ c int _printf(const char *format, ...) - is used for formatted output. It's akin to the standard printf function and allows developers to print formatted text to the standard output.
 
@@ -49,5 +41,5 @@ Return Value Upon successful return, the _printf() function return the number of
 
 Authors ✒️
 
- _printf() is written and maintained by Luis Gonzales and Aaron M. Lopez.
+ _printf() is written and maintained by Luis Gonzalez and Aaron Lopez.
 
