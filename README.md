@@ -15,9 +15,9 @@ s: The const char * argument is expected to be a pointer to an array of characte
 
 Task 📃
 
-|int _printf(const char *format, ...)| - is used for formatted output. It's akin to the standard printf function and allows developers to print formatted text to the standard output.
+~~~ c int _printf(const char *format, ...) - is used for formatted output. It's akin to the standard printf function and allows developers to print formatted text to the standard output.
 
-|int print_c(va_list args)| - a function used within a custom printf-like function to handle the printing of a single character specifier, often denoted by %c in the format string.
+int print_c(va_list args)| - a function used within a custom printf-like function to handle the printing of a single character specifier, often denoted by %c in the format string.
 
 int print_s(va_list args) - function to handle the printing of strings, often denoted by the %s specifier in the format string.
 
@@ -27,7 +27,7 @@ int print_d(va_list args) - function specifically designed to handle printing de
 
 int print_i(va_list args) - function to handle the printing of integer values, similar to the %i specifier in the format string.
 
-int (*get_func(char x))(va_list) - function get_func that takes a character x as an argument and returns a pointer to a function that takes a va_list as an argument and returns an integer.
+int (*get_func(char x))(va_list)~~~  - function get_func that takes a character x as an argument and returns a pointer to a function that takes a va_list as an argument and returns an integer.
 
 Return Value Upon successful return, the _printf() function return the number of characters printed (excluding the null byte used to end output to strings). If an output error is encountered, a negative value is returned.
 
