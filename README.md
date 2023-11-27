@@ -35,7 +35,7 @@ int print_i(va_list args) - function to handle the printing of integer values, s
 
 int (*get_func(char x))(va_list)  - function get_func that takes a character x as an argument and returns a pointer to a function that takes a va_list as an argument and returns an integer.
 
-int (*get_func(char x))(va_list)~~~ - function get_func that takes a character x as an argument and returns a pointer to a function that takes a va_list as an argument and returns an integer.
+int (*get_func(char x))(va_list) ~~~ - function get_func that takes a character x as an argument and returns a pointer to a function that takes a va_list as an argument and returns an integer.
 
 Return Value Upon successful return, the _printf() function return the number of characters printed (excluding the null byte used to end output to strings). If an output error is encountered, a negative value is returned.
 
