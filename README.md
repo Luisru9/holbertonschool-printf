@@ -1,4 +1,4 @@
-echo -e "\033[1;37mPrintf Group Projects en blanco\033[0m"
+echo -e "\033[1;37mPrintf_Group_Projects en blanco\033[0m"
 
 Description 💬
 
