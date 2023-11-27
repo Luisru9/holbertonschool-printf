@@ -10,7 +10,7 @@ Format of the format string The format string is a character string, beginning a
 
 Conversion specifiers A character that specifies the type of conversion to be applied. The conversion specifiers and their meaning are:
 
-``` c d, i: The int argument should be signed decimal notation, and the resulting number is written.
+d and i: The int argument should be signed decimal notation, and the resulting number is written.
 c: The int argument is converted to a char, and the resulting character is written.
 s: The const char * argument is expected to be a pointer to an array of character type (pointer to a string). Characters from the array are written up to (but not including) a terminating null byte ('\0').
 %: A '%' is written. No argument is converted. The complete conversion specification is '%%'.
