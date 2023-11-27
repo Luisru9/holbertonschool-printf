@@ -1,4 +1,4 @@
-.\" Manpage for Our _Printf Project.
+.\" Man page for Our _Printf Project"
 .\"
 ."November 27, 2023" "_Printf Project man page"
 
@@ -16,7 +16,8 @@ int _printf(const char *format, ...)
 _printf[argument]...
 
 .DESCRIPTION
-The printf function prints numerical values or ASCII characters characters of the format specifiers passed to it in the argument. This _printf includes our version of the printf function, the basic and main functions.
+The printf function prints numerical values or ASCII characters characters of the format specifiers passed to it in the argument. 
+This _printf includes our version of the printf function, the basic and main functions.
 
 Return: The number of characters printed (excluding the null byte used to end output to string).
 
@@ -44,7 +45,7 @@ _printf("Integer: %d", integer);
  (or use "%i" for print integer, depends of the case).
 
 .BUGS
-If there is a bug, report to 7327@holbertonschool.com or 5366@holbertonschool.com
+If there is a bug, report to 7327@holbertonstudents.com or 5366@holbertonstudents.com
 
 .SH AUTHORS
 Aaron Lopez and Luis Gonzalez Pagan - Students at Holberton School San Juan Puerto Rico.
