@@ -1,12 +1,12 @@
  Printf Group Projects  - formatted output conversion #include "main.h" int _printf(const char format , ...);
 
-Description The _printf() function produce output according to a format as described below. Also, write output to stdout, the standard output stream. The _printf() function write the output under the control of a format string that specifies how subsequent arguments (or arguments accessed via the variable-length argument facilities of stdarg(3) are converted for output.
+Description 💬
+
+The _printf() function produce output according to a format as described below. Also, write output to stdout, the standard output stream. The _printf() function write the output under the control of a format string that specifies how subsequent arguments (or arguments accessed via the variable-length argument facilities of stdarg(3) are converted for output.
 
 Format of the format string The format string is a character string, beginning and ending inits initial shift state, if any. The format string is composed of zero or more directives: ordinary characters (not %), which are copied unchanged to the output stream; and conversion specifications, each of which results in fetching zero or more subsequent arguments. Each conversion specification is introduced by the character % and ends with conversion specifier.
 
 Conversion specifiers A character that specifies the type of conversion to be applied. The conversion specifiers and their meaning are:
-
-Description 💬
 
 d, i: The int argument should be signed decimal notation, and the resulting number is written.
 c: The int argument is converted to a char, and the resulting character is written.
@@ -15,17 +15,9 @@ s: The const char * argument is expected to be a pointer to an array of characte
 
 Task 📃
 
-int _printf(const char *format, ...) - is used for formatted output. It's akin to the standard printf function and allows developers to print formatted text to the standard output.
+|int _printf(const char *format, ...)| - is used for formatted output. It's akin to the standard printf function and allows developers to print formatted text to the standard output.
 
-```c
-int _printf(const char *format, ...) {
-    // Código de la función _printf aquí
-    // ...
-}
-
-
-
-int print_c(va_list args) - a function used within a custom printf-like function to handle the printing of a single character specifier, often denoted by %c in the format string.
+|int print_c(va_list args)| - a function used within a custom printf-like function to handle the printing of a single character specifier, often denoted by %c in the format string.
 
 int print_s(va_list args) - function to handle the printing of strings, often denoted by the %s specifier in the format string.
 
