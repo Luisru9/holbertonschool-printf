@@ -15,13 +15,13 @@ int _printf(const char *format, ...)
 
 _printf[argument]...
 
-.DESCRIPTION
+.SH DESCRIPTION
 The printf function prints numerical values or ASCII characters characters of the format specifiers passed to it in the argument. 
 This _printf includes our version of the printf function, the basic and main functions.
 
-Return: The number of characters printed (excluding the null byte used to end output to string).
+.SH Return: The number of characters printed (excluding the null byte used to end output to string).
 
-Conversion specifiers: There are a many different conversion specifiers that can be used for various data types.
+.SH Conversion specifiers: There are a many different conversion specifiers that can be used for various data types.
 
 %c - print a single character.
 
@@ -35,7 +35,7 @@ Conversion specifiers: There are a many different conversion specifiers that can
 
 A conversion specifier begins with a percent sign and ends with the conversion characters shown below.
 
-.For example:
+.SH For example:
 
 _printf("Character: %c", character);
 
@@ -44,7 +44,7 @@ _printf("String: %s", string);
 _printf("Integer: %d", integer);
  (or use "%i" for print integer, depends of the case).
 
-.BUGS
+.SH BUGS
 If there is a bug, report to 7327@holbertonstudents.com or 5366@holbertonstudents.com
 
 .SH AUTHORS
