@@ -21,7 +21,7 @@ int print_s(va_list args) - function to handle the printing of strings, often de
 
 int print_percent(va_list args) -  function to handle the printing of the literal % character, typically denoted by %% in the format string.
 
-int print_d(va_list args) - function to handle the printing of integer values, often associated with the %d specifier in the format string.
+int print_d(va_list args) - function specifically designed to handle printing decimal integers, often associated with the %d specifier in the format string.
 
 int print_i(va_list args) - function to handle the printing of integer values, similar to the %i specifier in the format string.
 
