@@ -1,4 +1,10 @@
-echo -e "\033[1;37mPrintf Group Projects\033[0m"
+#include <stdio.h>
+
+int main() {
+    printf("\033[1;37mPrintf Group Projects\033[0m\n");
+    return 0;
+}
+
 
 
 Description 💬
