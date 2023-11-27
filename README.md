@@ -1,4 +1,4 @@
- printf Group Projects printf - formatted output conversion #include "main.h" int _printf(const char format , ...);
+ Printf Group Projects  - formatted output conversion #include "main.h" int _printf(const char format , ...);
 
 Description The _printf() function produce output according to a format as described below. Also, write output to stdout, the standard output stream. The _printf() function write the output under the control of a format string that specifies how subsequent arguments (or arguments accessed via the variable-length argument facilities of stdarg(3) are converted for output.
 
@@ -6,14 +6,24 @@ Format of the format string The format string is a character string, beginning a
 
 Conversion specifiers A character that specifies the type of conversion to be applied. The conversion specifiers and their meaning are:
 
+Description 💬
+
 d, i: The int argument should be signed decimal notation, and the resulting number is written.
 c: The int argument is converted to a char, and the resulting character is written.
 s: The const char * argument is expected to be a pointer to an array of character type (pointer to a string). Characters from the array are written up to (but not including) a terminating null byte ('\0').
 %: A '%' is written. No argument is converted. The complete conversion specification is '%%'.
 
-About Function
+Task 📃
 
 int _printf(const char *format, ...) - is used for formatted output. It's akin to the standard printf function and allows developers to print formatted text to the standard output.
+
+```c
+int _printf(const char *format, ...) {
+    // Código de la función _printf aquí
+    // ...
+}
+
+
 
 int print_c(va_list args) - a function used within a custom printf-like function to handle the printing of a single character specifier, often denoted by %c in the format string.
 
@@ -29,4 +39,6 @@ int (*get_func(char x))(va_list) - function get_func that takes a character x as
 
 Return Value Upon successful return, the _printf() function return the number of characters printed (excluding the null byte used to end output to strings). If an output error is encountered, a negative value is returned.
 
-Author _printf() is written and maintained by Luis Gonzales and Aaron M. Lopez.
+Authors ✒️
+
+ _printf() is written and maintained by Luis Gonzales and Aaron M. Lopez.
